@@ -1,6 +1,11 @@
 # CloseAI - Ultra-Modern Landing Page
 
+[![Deploy to GitHub Pages](https://github.com/gunnit/closeai/actions/workflows/deploy.yml/badge.svg)](https://github.com/gunnit/closeai/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://gunnit.github.io/closeai/)
+
 A production-ready, ultra-modern landing page for CloseAI, the real-time AI sales assistant that provides suggestions in under 2 seconds.
+
+🌐 **Live Demo**: [https://gunnit.github.io/closeai/](https://gunnit.github.io/closeai/)
 
 ## 🚀 Features
 
@@ -136,6 +141,8 @@ meetassistwebsite/
 
 ## 🚀 Getting Started
 
+### Local Development
+
 1. **Open the page**: Simply open `index.html` in a modern browser
 2. **Local server** (recommended): Use any local server for full functionality
    ```bash
@@ -148,6 +155,31 @@ meetassistwebsite/
    # VS Code Live Server extension
    ```
 3. **Customize**: Update colors, content, and branding in the CSS custom properties
+
+### Deployment
+
+#### GitHub Pages (Automated)
+
+This repository is configured with GitHub Actions for automatic deployment to GitHub Pages.
+
+1. **Push to master/main**: Any push to the master or main branch triggers automatic deployment
+2. **Manual deployment**: Go to Actions tab and run the workflow manually
+3. **View deployment**: Visit [https://gunnit.github.io/closeai/](https://gunnit.github.io/closeai/)
+
+#### Deployment Status
+
+- Check the deployment status in the [Actions tab](https://github.com/gunnit/closeai/actions)
+- The deployment badge at the top of this README shows the current status
+- Deployments typically complete within 2-3 minutes
+
+#### Custom Domain (Optional)
+
+To use a custom domain with GitHub Pages:
+
+1. Go to Settings → Pages
+2. Add your custom domain
+3. Create a CNAME file in the root directory with your domain
+4. Configure DNS settings with your domain provider
 
 ## 🎪 Live Features Demo
 
